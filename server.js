@@ -39,7 +39,7 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/', (req, res) => {
     res.render('home.hbs', {
         pageTitle: 'Home',
-        welcomeMessage: 'Welcome to my webpage - update'
+        welcomeMessage: 'Welcome to my webpage - update - new'
     });
 
 });
